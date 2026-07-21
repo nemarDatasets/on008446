@@ -1,20 +1,19 @@
 {
-  "Name": "Random and Sequential Order Finger Motor Imagery ",
-  "BIDSVersion": "1.6.0",
-  "DatasetType": "raw",
-  "Authors": [
-    "Laura M. Damm", 
-    "Dai Jiang",
-    "Andreas Demosthenous"
-  ],
-  "License": "CC0",
-  
-  "EthicsApprovals": [
-    "UCL Humanities, Arts and Sciences Research Ethics Committee; Approval Number: 26907/001"
-  ],
-
-  "TaskNames": [
-    "RandomCueOrder",
-    "SequentialCueOrder"
-  ]
+    "Name": "Random and Sequential Order Finger Motor Imagery ",
+    "BIDSVersion": "1.6.0",
+    "DatasetType": "raw",
+    "Authors": [
+        "Laura M. Damm",
+        "Dai Jiang",
+        "Andreas Demosthenous"
+    ],
+    "License": "CC0",
+    "EthicsApprovals": [
+        "UCL Humanities, Arts and Sciences Research Ethics Committee; Approval Number: 26907/001"
+    ],
+    "TaskNames": [
+        "RandomCueOrder",
+        "SequentialCueOrder"
+    ],
+    "HowToAcknowledge": "L. M. Damm, D. Jiang and A. Demosthenous, \"Random and Sequential Finger Motor Imagery,\" 2026 OpenNeuro"
 }
