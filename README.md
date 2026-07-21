@@ -23,13 +23,13 @@ Data is stored in BIDS-compliant format with:
 - Age range: 19-57 years
 
 ## Marker Identification
-1 = White Screen
-2 = Focus Cross
-3 = Thumb
-4 = Index Finger
-5 = Middle Finger
-6 = Ring Finger
-7 = Pinky Finger 
+- 1 = White Screen
+- 2 = Focus Cross
+- 3 = Thumb
+- 4 = Index Finger
+- 5 = Middle Finger
+- 6 = Ring Finger
+- 7 = Pinky Finger 
 
 
 ## Tasks
