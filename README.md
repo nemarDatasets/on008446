@@ -20,7 +20,7 @@ Data is stored in BIDS-compliant format with:
 ## Participants
 - 20 participants
 - Counterbalanced block order conditions
-- Age range: 19�57 years
+- Age range: 19-57 years
 
 ## Tasks
 | Condition | Code | Description |
@@ -38,5 +38,3 @@ Each participant completed both conditions in either first or second block posit
 ## License
 See LICENSE file for usage terms.
 
-## Contact
-Dataset prepared for ERDS Study analysis.
