@@ -15,5 +15,7 @@
         "Random Finger Cue Order",
         "Sequential Finger Cue Order"
     ],
-    "Funding": []
+    "Funding": [
+        "Engineering and Physical Sciences Research Council (EPSRC) grant EP/S022139/1"
+    ]
 }
