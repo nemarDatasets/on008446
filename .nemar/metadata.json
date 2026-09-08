@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Random and Sequential Order Finger Motor Imagery ",
-  "description": "This dataset contains EEG recordings from 20 participants performing finger motor imagery tasks cued in either random or sequential block order, with starting order counterbalanced across participants. The paradigm investigates motor imagery execution associated with individual finger cues (thumb, index, middle, ring, pinky). Data were collected in BIDS-compliant format to support analysis of EEG correlates of motor imagery under different cueing structures.",
-  "methods_description": "EEG data were recorded using a g.tec GmbH system at a sampling frequency of 512 Hz across 65 channels (62 EEG, 2 reference, 1 marker). Participants performed finger motor imagery tasks cued in random or sequential block order, with block order counterbalanced across the 20 participants (age range 19-57 years). Data are stored in EDF format with accompanying BIDS channel and metadata files.",
+  "description": "This dataset comprises EEG recordings from 20 participants performing a finger motor imagery paradigm, in which finger cues were presented in either random or sequential block order, with starting order counterbalanced across participants. The data were collected to investigate motor imagery-related EEG activity across different cue ordering conditions, using a 65-channel g.tec EEG system sampled at 512 Hz.",
+  "methods_description": "EEG data were recorded using a g.tec GmbH system with 65 channels (62 EEG, 2 reference, 1 marker) at a sampling frequency of 512 Hz. Participants performed finger motor imagery tasks cued in random or sequential block order, with block order counterbalanced across subjects.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -22,10 +22,10 @@
       "term": "finger movement"
     },
     {
-      "term": "BIDS"
+      "term": "brain-computer interface"
     },
     {
-      "term": "brain-computer interface"
+      "term": "BIDS"
     }
   ],
   "related_identifiers": [
