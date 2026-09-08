@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Random and Sequential Order Finger Motor Imagery ",
-  "description": "This dataset comprises EEG recordings from 20 participants performing a finger motor imagery paradigm, in which finger cues were presented in either random or sequential block order, with starting order counterbalanced across participants. The data were collected to investigate motor imagery-related EEG activity across different cue ordering conditions, using a 65-channel g.tec EEG system sampled at 512 Hz.",
-  "methods_description": "EEG data were recorded using a g.tec GmbH system with 65 channels (62 EEG, 2 reference, 1 marker) at a sampling frequency of 512 Hz. Participants performed finger motor imagery tasks cued in random or sequential block order, with block order counterbalanced across subjects.",
+  "description": "This dataset comprises 64-channel EEG recordings from 20 participants performing a finger motor imagery task, in which finger cues were presented in either random or sequential block orders, counterbalanced across subjects. The paradigm aims to investigate the effects of cue order predictability on motor imagery execution and associated neural dynamics. Data were collected using a g.tec EEG system and organized in BIDS format.",
+  "methods_description": "EEG data were recorded using a g.tec GmbH system at a sampling frequency of 512 Hz with 65 channels (62 EEG, 2 reference, 1 marker). Participants performed finger motor imagery tasks cued in random or sequential block order, with block order counterbalanced across subjects. Marker channels encoded stimulus events including screen states and specific finger cues (thumb, index, middle, ring, pinky).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -23,6 +23,9 @@
     },
     {
       "term": "brain-computer interface"
+    },
+    {
+      "term": "cue order"
     },
     {
       "term": "BIDS"
