@@ -1,34 +1,75 @@
 {
   "version": "2.0",
-  "dataset_id": "on008446",
-  "source": "openneuro",
-  "source_id": "ds008446",
+  "pipeline_stage": "validated",
   "title": "Random and Sequential Order Finger Motor Imagery ",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Damm, Laura Marie": {},
     "Jiang, Dai": {},
     "Demosthenous, Andreas": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds008446.v1.0.1",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on008446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on008446",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.6.0",
-  "recording_modality": [
-    "eeg"
-  ],
-  "datatypes": [
-    "eeg"
   ],
   "funding_references": [
     {
-      "funder_name": "Engineering and Physical Sciences Research Council (EPSRC) grant EP/S022139/1"
+      "funder_name": "Engineering and Physical Sciences Research Council",
+      "award_number": "EP/S022139/1"
     }
-  ]
+  ],
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "36 B (1 files)"
+  ],
+  "formats": [
+    ".csv",
+    ".edf",
+    ".jpg",
+    ".json",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises EEG recordings from 20 participants performing a novel finger motor imagery paradigm, in which finger cues were presented in either random or sequential block order, with starting order counterbalanced across subjects. The data were collected to investigate how cue ordering affects motor imagery-related EEG dynamics. Recordings include 62 EEG channels plus reference and marker channels, sampled at 512 Hz.",
+  "methods_description": "EEG data were acquired using a g.tec GmbH system with 65 channels (62 EEG, 2 reference, 1 marker) at a sampling frequency of 512 Hz. Participants performed finger motor imagery cued in random or sequential block order, counterbalanced across subjects, with markers indicating cue type (white screen, focus cross, thumb, index, middle, ring, pinky).",
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "Motor Imagery"
+    },
+    {
+      "term": "Movement",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D009068"
+    },
+    {
+      "term": "Brain-Computer Interface"
+    },
+    {
+      "term": "Fingers",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005385"
+    }
+  ],
+  "source_hash": "29130f64d85e3f48917087f71c6b6fccd6a0f7f1756492e935845ab1e3b1ea5f"
 }
