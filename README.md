@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on008446-blue)](https://doi.org/10.82901/nemar.on008446)
+
 # Random and Sequential Order Finger Motor Imagery
 
 ## Description
