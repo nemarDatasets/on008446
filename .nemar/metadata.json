@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Random and Sequential Order Finger Motor Imagery ",
-  "description": "This dataset comprises 64-channel EEG recordings from 20 participants performing a finger motor imagery task, in which finger cues were presented in either random or sequential block orders, counterbalanced across subjects. The paradigm aims to investigate the effects of cue order predictability on motor imagery execution and associated neural dynamics. Data were collected using a g.tec EEG system and organized in BIDS format.",
-  "methods_description": "EEG data were recorded using a g.tec GmbH system at a sampling frequency of 512 Hz with 65 channels (62 EEG, 2 reference, 1 marker). Participants performed finger motor imagery tasks cued in random or sequential block order, with block order counterbalanced across subjects. Marker channels encoded stimulus events including screen states and specific finger cues (thumb, index, middle, ring, pinky).",
+  "description": "EEG recordings from 20 participants performing a novel finger motor imagery paradigm in which cues for individual fingers were presented in random and sequential order blocks. The order of blocks was counterbalanced across participants. Data were acquired with a 65-channel g.tec system at 512 Hz and organized in BIDS format.",
+  "methods_description": "EEG was recorded with a g.tec GmbH system at 512 Hz using 65 channels (62 EEG, 2 reference, 1 marker channel). Participants performed cued finger motor imagery (thumb, index, middle, ring, pinky) in random and sequential cue-order blocks, with block order counterbalanced. Data are stored as EDF files with BIDS sidecars.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -25,10 +25,14 @@
       "term": "brain-computer interface"
     },
     {
-      "term": "cue order"
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
     },
     {
-      "term": "BIDS"
+      "term": "Imagination",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D007092"
     }
   ],
   "related_identifiers": [
